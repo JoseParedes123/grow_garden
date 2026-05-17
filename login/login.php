@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - ComicsStore</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_login.css">
 </head>
 <body>
     <header class="register">
@@ -18,7 +18,7 @@
                 <input class="register-field" type="password" name="password" placeholder="Contraseña" required>
                 <button class="register-button" type="submit" style="background-color: #22c55e;" onmouseover="this.style.backgroundColor='#16a34a'" onmouseout="this.style.backgroundColor='#22c55e'">Iniciar sesión</button>
             </form>
-            <p>¿No tienes cuenta? <a class="link-home" href="registro.html">Regístrate aquí</a></p>
+            <p>¿No tienes cuenta? <a class="link-home" href="registro.php">Regístrate aquí</a></p>
         </section>
     </main>
 </body>

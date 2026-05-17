@@ -4,11 +4,9 @@ html, body {
     padding: 0;
 }
 body{
-    background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+    background: #9BCB4B;
 }
-.game-page {
-    background: url(pngs/cesped.jpg) center/cover fixed no-repeat;
-}
+
 
 header{
     border: solid 5px rgba(31, 41, 55, 0.9);
@@ -16,36 +14,21 @@ header{
     margin: 0;
     background: rgba(31, 41, 55, 0.9);
     backdrop-filter: blur(6px);
-    height: 40px;
 }
-
-.header-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-}
-
-.header-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-.header-title {
-    color: #facc15;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
 .register{
     text-align: center;
     color: #a7f3d0;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+table{
+margin: 0;
+width: 100%;
+padding: 0;
+height: 100%;
+text-align: center;
+background-color: #1f2937;
+}
 button{
     min-width: 110px;
     width: auto;
@@ -73,32 +56,6 @@ main{
     background: transparent;
 }
 
-.cesped {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.terreno{
-    background-image: url(pngs/tierra.jpg);
-    background-size: cover;
-    width: 350px;  
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    
-}
-
-.Arboles img{
-    
-    margin-top: 50px;
-    height: 200px;
-    width: auto;
-    border-radius: 10px;
-    
-}
 .form_box{
     text-align: center;
     font-size: 20px;
@@ -118,11 +75,36 @@ input{
     border: solid 1px black;
 }
 
-.money{
-    color: #facc15;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-left: 40px;
-    margin-top: 10px;
+.register-field,
+.register-button {
+    display: block;
+    margin: 10px auto;
+}
+
+.register-field {
+    width: 60%;
+}
+
+.register-button {
+    width: 50%;
+}
+
+
+.registro{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 5px rgba(31, 41, 55, 0.9);
+    border-radius: 45px;
+    padding: 10px;
+    background-color: rgb(204, 248, 82);
+    width: 650px;  
+    height: 420px;
+}
+.registro input{
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
 }

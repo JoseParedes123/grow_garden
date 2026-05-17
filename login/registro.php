@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_login.css">
     
    
 </head>
@@ -23,9 +23,9 @@
                 <input class="register-field" type="password" name="password" placeholder="Contraseña" required>
                 <input class="register-field" type="password" name="confirm_password" placeholder="Confirmar contraseña" required>
                 <button class="register-button" type="submit" style="background-color: #3b82f6;" onmouseover="this.style.backgroundColor='#1d4ed8'" onmouseout="this.style.backgroundColor='#3b82f6'">Registrarse</button>
-                <p>¿Tienes una cuenta? <a class="link-home" href="login.html">Inicia Sesion aqui</a></p>
+                
             </form>
-
+            <p>¿Tienes una cuenta? <a class="link-home" href="login.php">Inicia Sesion aqui</a></p>
         </section>
     </main>
 </body>

@@ -7,7 +7,7 @@ body{
     background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
 }
 .game-page {
-    background: url(pngs/cesped.jpg) center/cover fixed no-repeat;
+    background: url(diseños/fondo.png) center/cover fixed no-repeat;
 }
 
 header{
@@ -79,21 +79,17 @@ main{
     justify-content: center;
     align-items: center;
 }
-
-.terreno{
-    background-image: url(pngs/tierra.jpg);
-    background-size: cover;
-    width: 350px;  
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
+.regadera{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 700px;
     
 }
 
+
 .Arboles img{
-    
-    margin-top: 50px;
+    position: absolute;
+  
     height: 200px;
     width: auto;
     border-radius: 10px;
@@ -125,4 +121,34 @@ input{
     text-transform: uppercase;
     margin-left: 40px;
     margin-top: 10px;
+}
+
+#contador {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -500px;
+    color: #facc15;
+    font-size: 44px;
+    font-weight: 700;
+    font: bold;
+    text-transform: uppercase;
+}
+
+#regador button{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 250px;
+    background: transparent;
+    color: #facc15;
+    font-size: 24px;   
+    font: bold;
+    border: solid 0px #facc15; 
+}
+
+#regador button:hover {
+    background-color: transparent;
+    color: #16a34a;
+    border: solid 1px #16a34a; 
+    transition: all 0.5s ease;
+    border: solid 0px #16a34a;
 }

@@ -24,6 +24,7 @@ $dinero = $usuario->obtenerDinero($_SESSION['id_usuario']);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
     <title>Document</title>
 </head>
 <body class="game-page">
@@ -55,14 +56,21 @@ $dinero = $usuario->obtenerDinero($_SESSION['id_usuario']);
 </header>
 
     <main class="cesped">
-        <section class="terreno">
             
             <div class="Arboles">
 
-                <img src="pngs/etapa5.png" alt="arbol">
+                <img id="planta" src="diseños/nivel1.png" alt="arbol">
 
             </div>
-        </section>
+            <div class="regadera">
+                <img src="diseños/regadera.png" alt="regardera">
+            </div>
+            <div id="contador">
+                <h1>01:00:00</h1>
+            </div>
+            <div id="regador">
+            <button onclick="regar()">regar</button>
+            </div>
     </main>
     
 </body>

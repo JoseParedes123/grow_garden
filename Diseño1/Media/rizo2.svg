@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="96mm"
+   height="16mm"
+   viewBox="0 0 96 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   sodipodi:docname="rizo2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="181.37289"
+     inkscape:cy="15.556349"
+     inkscape:window-width="1366"
+     inkscape:window-height="655"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 8 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="64 : 8 : 1"
+       inkscape:persp3d-origin="32 : 5.3333333 : 1"
+       id="perspective3" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 8.0000285,0 A 8,8 0 0 0 0,8.0000285 a 8,8 0 0 0 8.0000285,8.0000285 8,8 0 0 0 0.9570475,-0.05736 4,4 0 0 0 0.4237468,0.02222 4,4 0 0 0 0.00568,-5.17e-4 4,4 0 0 0 2.7962122,-1.144633 4,4 0 0 0 1.19786,-2.854606 A 4,4 0 0 0 9.3808228,7.9648885 4,4 0 0 0 5.3805501,11.965161 4,4 0 0 0 7.0796712,15.230595 6,6 0 0 1 4.0002726,9.9999064 6,6 0 0 1 9.9999064,4.0002726 h 5.166e-4 4.927865 1.071769 L 79.999768,16.000057 h 8.000029 A 8,8 0 0 0 95.999825,8.0000285 8,8 0 0 0 87.999797,0 8,8 0 0 0 87.042749,0.05736084 4,4 0 0 0 86.619002,0.03513997 4,4 0 0 0 86.613302,0.03565674 4,4 0 0 0 83.81709,1.1802897 4,4 0 0 0 82.61923,4.0348958 4,4 0 0 0 86.618986,8.0351685 4,4 0 0 0 90.619259,4.0348958 4,4 0 0 0 88.920138,0.76946208 6,6 0 0 1 91.999536,6.0001506 6,6 0 0 1 85.999903,11.999784 h -5.17e-4 -4.927865 -1.071769 L 16.000057,0 Z"
+       style="display:inline;fill:#999999;stroke-width:1.323;stroke-linejoin:bevel;stroke-dashoffset:50;fill-opacity:1"
+       id="path8" />
+    <path
+       d="M 8.0000285,0 A 8,8 0 0 0 0,8.0000285 a 8,8 0 0 0 8.0000285,8.0000285 8,8 0 0 0 0.9570475,-0.05736 4,4 0 0 0 0.4237468,0.02222 4,4 0 0 0 0.00568,-5.17e-4 4,4 0 0 0 2.7962122,-1.144633 4,4 0 0 0 1.19786,-2.854606 A 4,4 0 0 0 9.3808228,7.9648885 4,4 0 0 0 5.3805501,11.965161 4,4 0 0 0 7.0796712,15.230595 6,6 0 0 1 4.0002726,9.9999064 6,6 0 0 1 9.9999064,4.0002726 h 5.166e-4 4.927865 1.071769 L 48.000171,16.000057 h 8.000028 A 8,8 0 0 0 64.000228,8.0000285 8,8 0 0 0 56.000199,0 8,8 0 0 0 55.043152,0.05736084 4,4 0 0 0 54.619405,0.03513997 a 4,4 0 0 0 -0.0057,5.1677e-4 4,4 0 0 0 -2.796212,1.14463296 4,4 0 0 0 -1.19786,2.8546061 4,4 0 0 0 3.999756,4.0002727 4,4 0 0 0 4.000273,-4.0002727 4,4 0 0 0 -1.699121,-3.26543372 6,6 0 0 1 3.079398,5.23068852 6,6 0 0 1 -5.999634,5.9996334 h -5e-4 -4.927865 -1.071769 L 16.000057,0 Z"
+       style="display:none;fill:#999999;fill-opacity:1;stroke-width:1.323;stroke-linejoin:bevel;stroke-dashoffset:50"
+       id="path6" />
+    <g
+       id="g8"
+       style="display:none">
+      <circle
+         style="display:inline;fill:#4d4d4d;stroke-width:2.64599;stroke-linejoin:bevel;stroke-dashoffset:50"
+         id="path2"
+         cx="56"
+         cy="8"
+         r="8" />
+      <circle
+         style="display:inline;fill:#0000ff;stroke-width:1.98449;stroke-linejoin:bevel;stroke-dashoffset:50"
+         id="path2-2"
+         cx="54"
+         cy="6"
+         r="6" />
+      <circle
+         style="display:inline;fill:#4d4d4d;stroke-width:1.323;stroke-linejoin:bevel;stroke-dashoffset:50"
+         id="path2-2-3"
+         cx="54.619637"
+         cy="4.0349731"
+         r="4" />
+      <rect
+         style="display:inline;fill:#ff0000;stroke:none;stroke-width:1.13177;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:50;stroke-opacity:1"
+         id="rect3"
+         width="8"
+         height="4"
+         x="48"
+         y="12" />
+    </g>
+  </g>
+</svg>

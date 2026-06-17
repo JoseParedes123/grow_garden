@@ -1,5 +1,5 @@
 body{
-    background-color: #999999ff;
+    background-color: #995f3d;
     padding: 2px;
 }
 main{
@@ -7,21 +7,23 @@ main{
     height: 100%;
 }
 .tienda{
+    display: none;
     position: absolute;
-    background-color: rgb(95, 95, 95);
+    background-color: #5e462f;
     height: 90%;
     width: 360px;
     text-align: center;
-    padding: 5px 10px 5 10px;
+    padding: 5px 10px 5px 10px;
 }
 .planta{
+    display: none;
     position: absolute;
-    background-color: rgb(95, 95, 95);
+    background-color: #5e462f;
     height: 90%;
     width: 360px;
     text-align: center;
     right: 10px;
-    padding: 5px 10px 5 10px;
+    padding: 5px 10px 5px 10px;
 }
 .esquina{
     position: absolute;
@@ -48,7 +50,7 @@ nav{
     top: 164;
     position: absolute;
 }
-nav li:hover{transform: translateX(10%) scale(120%);background-color: #4d4d4dff;transition: transform 0.2s ease-in-out;}
+nav li:hover{transform: translateX(10%) scale(120%);background-color: #5a5e31;transition: transform 0.2s ease-in-out;}
 nav ul{
     list-style: none;
     height: 100%; 
@@ -56,15 +58,15 @@ nav ul{
 }
 nav li{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #999999ff;
+    background-color: #99823d;
     font-size: 20px;
     padding: 1px;
 }
-nav a{
+nav label{
     text-decoration: none;
     color: black;
 }
-nav a:hover{color: white;}
+nav label:hover{color: white;}
 .contenido{
     height: 100%;
     width: 100%;
@@ -75,4 +77,25 @@ nav a:hover{color: white;}
 .lado{
     display: flex;
     align-items: center;
+}
+main:has(#menu-comprar:checked) .tienda{
+    display: block;
+}
+main:has(#planta-datos:checked) .planta{
+    display: block;
+}
+.tienda label p{
+    background-color:#995f3d;
+}
+.tienda label p:hover{
+    background-color: #4d3626;
+    color: white;
+    transform: scale(110%) translateX(5px);
+    transition: transform 0.1s;
+}
+main input{display: none;}
+.planta-datos{
+    background: #4d3626; 
+    color: rgb(255, 255, 255);
+    font-size: 12px;
 }

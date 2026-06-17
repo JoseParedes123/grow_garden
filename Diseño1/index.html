@@ -13,39 +13,45 @@
         <img class="esquina" src="Media/corner.svg" alt="corner" style="bottom: 0;left: 0;transform: scaleY(-100%);">
         <img class="esquina" src="Media/corner.svg" alt="corner" style="bottom: 0;right: 0;transform: scaleX(-100%) scaleY(-100%)">
         <main>
-            
+                <input type="checkbox" id="menu-comprar">
+                <input type="checkbox" id="menu-vender">
+                <input type="checkbox" id="menu-usuario">
+                <input type="checkbox" id="planta-datos">
             <nav>
                 <ul>
-                    <li><a href="">comprar</a></li>
-                    <li><a href="">vender</a></li>
-                    <li><a href="">usuario</a></li>
+                    <li><label for="menu-comprar">comprar</label></li>
+                    <li><label for="menu-vender">vender</label></li>
+                    <li><label for="menu-usuario">usuario</label></li>
                 </ul>
             </nav>
             <div class="contenido">
                 <div class="tienda">
+                    <img src="Media/rizo3.svg" alt="rizo" height="16px">
                     <h1 style="color: white;">TIENDA</h1>
-                    <div style="background-color: white;">
-                        <label for="semilla"><p>Semillas</p></label>
-                        <label for="productos"><p>Productos</p></label>
-                        <label for="productos"><p>Salir</p></label>
-                    </div>
+                    <img src="Media/rizo3.svg" alt="rizo" height="16px">
+                    <label for="semilla"><p>Semillas</p></label>
+                    <label for="productos"><p>Productos</p></label>
+                    <label for="menu-comprar"><p>Salir</p></label>
                     <div class="listado"><p></p></div>
                 </div>
                 
                 <div class="lado">
                     <button class="flecha"><img class="flecha" src="Media/flecha.svg" alt="Arrow"></button>
                 </div>
-                <div></div>
+                <div style="text-align: center; align-content: center;"><label for="planta-datos"><img src="Media/plantaej.svg" alt="planta" width="100px"></label></div>
                 <div class="lado">
                     <button class="flecha"><img class="flecha" src="Media/flecha.svg" alt="Arrow" style="transform: rotate(180deg);"></button>
                 </div>
 
                 <div class="planta">
-                    <h1 style="color: white;">Planta_name</h1>
-                    <div style="background: white; color: rgb(0, 0, 0); border: 1px transparent solid; border-radius: 5px;">
+                    <img src="Media/rizo3.svg" alt="rizo" height="16px">
+                    <h1 style="color: white;font-style: italic;">Planta_name</h1>
+                    <img src="Media/rizo3.svg" alt="rizo" height="16px">
+                    <img src="Media/plantaej.svg" alt="planta" width="100px">
+                    <div style="background: white; color: black;">
                         <p class="listado">descripcion<p>
                     </div>
-                    <div><p></p></div>
+                    <div class="planta-datos"><p>cosecha propia 5% loool</p></div>
                 </div>
 
             </div>

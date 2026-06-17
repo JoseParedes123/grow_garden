@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128mm"
+   height="92mm"
+   viewBox="0 0 128 92"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   sodipodi:docname="invernadero.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.44"
+     inkscape:cx="97.727273"
+     inkscape:cy="29.545455"
+     inkscape:window-width="1366"
+     inkscape:window-height="655"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="display:inline;fill:#ff0000;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       id="rect1"
+       width="92"
+       height="64"
+       x="0"
+       y="28" />
+    <path
+       style="display:inline;fill:#ff0000;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       d="M 92,27.999999 C 128,7.2153903 128,7.2153903 128,7.2153903"
+       id="path1" />
+    <path
+       style="display:inline;fill:#800000;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       d="M 92,92 C 128,71.215389 128,71.215389 128,71.215389 V 7.2153901 L 92,27.999999"
+       id="path2" />
+    <path
+       style="display:inline;fill:#00ffff;stroke-width:0.608754;stroke-linejoin:bevel;stroke-dashoffset:50"
+       d="M 99.042427,87.934053 C 120.95757,75.281339 120.95757,75.281339 120.95757,75.281339 V 36.321085 L 99.042427,48.973798"
+       id="path2-2" />
+    <path
+       style="fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50;stroke-opacity:1"
+       d="M 0,27.999999 16.165807,0 H 108.16581 L 92,27.999999 Z"
+       id="path9" />
+    <rect
+       style="display:inline;fill:#808080;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       id="rect5"
+       width="4"
+       height="64"
+       x="88"
+       y="28" />
+    <rect
+       style="display:inline;fill:#808080;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       id="rect5-4"
+       width="4"
+       height="64"
+       x="0"
+       y="28" />
+    <rect
+       style="display:inline;fill:#808080;stroke-width:1.1715;stroke-linejoin:bevel;stroke-dashoffset:50"
+       id="rect5-4-6"
+       width="4"
+       height="87.83419"
+       x="-31.999998"
+       y="0.16580901"
+       transform="rotate(-90)" />
+    <rect
+       style="display:inline;fill:#808080;stroke-width:1.1715;stroke-linejoin:bevel;stroke-dashoffset:50"
+       id="rect5-4-6-1"
+       width="4"
+       height="87.83419"
+       x="-62"
+       y="2.0829048"
+       transform="rotate(-90)" />
+    <rect
+       style="display:inline;fill:#808080;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       id="rect5-4-0"
+       width="4"
+       height="64"
+       x="44"
+       y="28" />
+    <path
+       style="display:inline;fill:#808080;fill-opacity:1;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       d="M 88,27.999999 104.16581,0 h 4 L 92,27.999999 Z"
+       id="path7" />
+    <path
+       style="display:inline;fill:#808080;fill-opacity:1;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       d="M -1.5e-6,27.999999 16.165808,0 h 3.999999 L 3.9999985,27.999999 Z"
+       id="path7-9" />
+    <path
+       style="display:inline;fill:#808080;fill-opacity:1;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50"
+       d="M 44.000001,27.999999 60.16581,-1.5e-7 h 3.999999 L 48,27.999999 Z"
+       id="path7-9-2" />
+    <path
+       style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:bevel;stroke-dashoffset:50;stroke-opacity:1"
+       d="M 108.16581,0 128,7.2153901 92,27.999999 Z"
+       id="path10" />
+  </g>
+</svg>

@@ -1,6 +1,7 @@
 body{
     background-color: #995f3d;
     padding: 2px;
+    overflow-y: hidden;
 }
 main{
     width: 100%;
@@ -9,11 +10,13 @@ main{
 .tienda{
     display: none;
     position: absolute;
-    background-color: #5e462f;
+    background: #e9e5d2;
+    background-size: 50%;
     height: 90%;
     width: 360px;
     text-align: center;
     padding: 5px 10px 5px 10px;
+    z-index: 3;
 }
 .planta{
     display: none;
@@ -24,17 +27,19 @@ main{
     text-align: center;
     right: 10px;
     padding: 5px 10px 5px 10px;
+    z-index: 3;
 }
 .esquina{
     position: absolute;
     height: 64px;
-    z-index: 1;
+    z-index: 3;
 }
 .listado{background-color: white; width: 100%;overflow-y:auto}
 .rizo{ 
     position: absolute;
     height: 32px;
     transform-origin: 8px 46px; 
+    z-index: 3;
 }
 .flecha{
     display: flex;
@@ -47,8 +52,9 @@ main{
 }
 nav{
     left: -30;
-    top: 164;
+    top: 150;
     position: absolute;
+    z-index: 3;
 }
 nav li:hover{transform: translateX(10%) scale(120%);background-color: #5a5e31;transition: transform 0.2s ease-in-out;}
 nav ul{
@@ -75,8 +81,10 @@ nav label:hover{color: white;}
     grid-template-columns: 92px 1fr 92px;
 }
 .lado{
+    background-color: white;
     display: flex;
     align-items: center;
+    z-index: 2;
 }
 main:has(#menu-comprar:checked) .tienda{
     display: block;
@@ -98,4 +106,20 @@ main input{display: none;}
     background: #4d3626; 
     color: rgb(255, 255, 255);
     font-size: 12px;
+}
+.planta div{
+    margin: 5px;
+}
+.escena{
+    text-align: center;
+    align-content: center;
+    z-index: 2;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr 200px;
+}
+.pasto{
+    background:url(Media/deco\ pared.svg);
+    height: 100%;
+    width: 100%;
 }

@@ -83,6 +83,16 @@ main{
     background:url(Media/invernadero.svg);
     background-size: contain;
 }
+.cerca{
+    position: absolute;
+    height: 180px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background:url(Media/cerca.svg);
+    background-size: contain;
+}
 .planta-grid{
     transform: translateY(43%);
     display: grid;

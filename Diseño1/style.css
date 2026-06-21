@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Nostalgia;
+    src: url(Fonts/nouveau-nostalgia.regular.ttf);
+}
+
 body{
     background-color: #995f3d;
     padding: 2px;
@@ -9,30 +14,90 @@ main{
 }
 .tienda{
     display: none;
+    background: url(Media/deco\ pared.svg);
+    background-size: 30%;
+    border: 10px #995f3d solid;
+    border-top: 0;
+    border-left: 0;
+}
+.vender{
+    display: none;
+    background: url(Media/deco\ pared.svg);
+    background-size: 30%;
+    border: 10px #995f3d solid;
+    border-top: 0;
+    border-left: 0;
+}
+.usuario{
+    display: none;
+    background: url(Media/deco\ pared.svg);
+    background-size: 30%;
+    border: 10px #995f3d solid;
+    border-top: 0;
+    border-left: 0;
+}
+.menu{
     position: absolute;
-    background: #e9e5d2;
-    background-size: 50%;
     height: 90%;
+    padding: 5px 10px 5px 10px;
     width: 360px;
     text-align: center;
-    padding: 5px 10px 5px 10px;
     z-index: 3;
+}
+.menu-contenido{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 .planta{
     display: none;
-    position: absolute;
-    background-color: #5e462f;
-    height: 90%;
-    width: 360px;
-    text-align: center;
+    background: url(Media/deco\ pared2.svg);
+    background-size: 30%;
     right: 10px;
-    padding: 5px 10px 5px 10px;
-    z-index: 3;
+    border: 10px #995f3d solid;
+    border-top: 0;
+    border-right: 0;
 }
 .esquina{
     position: absolute;
     height: 64px;
+    z-index: 5;
+}
+.esquina-menu{
+    position: absolute;
+    height: 92px;
+    z-index: 5;
+}
+.invernadero{
+    position:relative;
+    display: grid;
+    place-items: center;
+}
+.estructura{
+    position: absolute;
+    height: 320px;
+    width: 446px;
+    bottom: 0;
+    transform: translateY(23%);
     z-index: 3;
+    background:url(Media/invernadero.svg);
+    background-size: contain;
+}
+.planta-grid{
+    transform: translateY(43%);
+    display: grid;
+    width: 70%;
+    height: 70%;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    place-items: center;
+}
+.planta-grid button{
+    background: transparent;
+    border-color: transparent;
+}
+.planta-unidad{
+    width: 92px;
 }
 .listado{background-color: white; width: 100%;overflow-y:auto}
 .rizo{ 
@@ -81,7 +146,8 @@ nav label:hover{color: white;}
     grid-template-columns: 92px 1fr 92px;
 }
 .lado{
-    background-color: white;
+    background: url(Media/borde.svg);
+    background-size: 60%;
     display: flex;
     align-items: center;
     z-index: 2;
@@ -89,16 +155,25 @@ nav label:hover{color: white;}
 main:has(#menu-comprar:checked) .tienda{
     display: block;
 }
+main:has(#menu-usuario:checked) .usuario{
+    display: block;
+}
+main:has(#menu-vender:checked) .vender{
+    display: block;
+}
 main:has(#planta-datos:checked) .planta{
     display: block;
 }
-.tienda label p{
+.boton_menu p{
+    width: 50%;
     background-color:#995f3d;
+    padding: 5px 0px 5px 0px;
+    transform: translateX(50%);
 }
-.tienda label p:hover{
+.boton_menu p:hover{
     background-color: #4d3626;
     color: white;
-    transform: scale(110%) translateX(5px);
+    transform: scale(110%) translateX(50%);;
     transition: transform 0.1s;
 }
 main input{display: none;}
@@ -110,6 +185,7 @@ main input{display: none;}
 .planta div{
     margin: 5px;
 }
+
 .escena{
     text-align: center;
     align-content: center;
@@ -119,7 +195,7 @@ main input{display: none;}
     grid-template-rows: 1fr 200px;
 }
 .pasto{
-    background:url(Media/deco\ pared.svg);
+    background:url(Media/pasto.svg);
     height: 100%;
     width: 100%;
 }

@@ -22,7 +22,7 @@ main{
 }
 .vender{
     display: none;
-    background: url(Media/deco\ pared.svg);
+    background: url(Media/deco\ pared3.svg);
     background-size: 30%;
     border: 10px #995f3d solid;
     border-top: 0;
@@ -30,7 +30,7 @@ main{
 }
 .usuario{
     display: none;
-    background: url(Media/deco\ pared.svg);
+    background: url(Media/deco\ pared4.svg);
     background-size: 30%;
     border: 10px #995f3d solid;
     border-top: 0;
